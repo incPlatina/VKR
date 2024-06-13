@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "pages/calculation.jsx", "pages/recipes/[id].jsx", "pages/_app.js", "pages/register.jsx", "pages/profile.tsx", "pages/login.jsx", "pages/journal.jsx", "pages/demonstration.tsx", "pages/index.jsx", "pages/create.js", "pages/admin.jsx", "components/UserManager.jsx"],
+  "exclude": ["node_modules"]
+}
