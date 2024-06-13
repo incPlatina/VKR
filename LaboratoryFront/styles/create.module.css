@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Изменено на space-between для разделения элементов */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid ;
+    padding: 10px;
+    background-color: #dbb970;
+    border-radius: 30px; /* Добавлено для закругления углов */
+  }
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px; /* Добавлено для увеличения области клика */
+    border-radius: 5px; /* Добавлено для закругления кнопок */
+  }
+  .navbar a:hover {
+    background-color: #ddd; /* Добавлено для эффекта при наведении */
+  }
+  /* Группировка элементов меню */
+  .navLeft {
+    display: flex;
+  }
+  .navRight {
+    display: flex;
+  }
+
+/* Стили для основного контейнера */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f7f7f7;
+  }
+  
+  /* Стили для формы создания рецепта */
+  .formrecipe {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .formrecipe input[type='text'],
+  .formrecipe textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .formrecipe button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formrecipe button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  /* Стили для списка ингредиентов */
+  .ingredientlist {
+    margin: 20px 0;
+  }
+  
+  .ingredientitem {
+    margin-bottom: 10px;
+  }
+  
+ 

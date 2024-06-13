@@ -1,0 +1,148 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Изменено на space-between для разделения элементов */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid ;
+    padding: 10px;
+    background-color: #dbb970;
+    border-radius: 30px; /* Добавлено для закругления углов */
+  }
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px; /* Добавлено для увеличения области клика */
+    border-radius: 5px; /* Добавлено для закругления кнопок */
+  }
+  .navbar a:hover {
+    background-color: #ddd; /* Добавлено для эффекта при наведении */
+  }
+  /* Группировка элементов меню */
+  .navLeft {
+    display: flex;
+  }
+  .navRight {
+    display: flex;
+  }
+  .contentContainer {
+    background-color: #f9f9f99c;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .recipeForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .recipeForm h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .recipeForm p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .user-info {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border-radius: 4px;
+    width: 100%;
+  }
+  .user-info h3 {
+    color: #333;
+  }
+  
+  .ingredient {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .recipeForm button {
+    padding: 10px 15px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .recipeForm button:hover {
+    background-color: #3f51b5;
+  }
+  .calculationsContainer {
+    flex: 1;
+  }
+
+  .reviewsSection {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .reviewForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .reviewForm textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .reviewForm select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .reviewForm button {
+    padding: 10px 15px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reviewForm button:hover {
+    background-color: #3f51b5;
+  }
+  
+  .review {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .review p {
+    margin: 5px 0;
+  }
+  
+  /* Стиль для рейтинга, можно дополнительно стилизовать, например, с помощью звездочек */
+  .reviewRating {
+    font-weight: bold;
+  }
+  

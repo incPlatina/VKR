@@ -1,0 +1,42 @@
+/* UserProfile.module.css */
+.container {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color:#f9f9f99c;
+  }
+  
+  .formTitle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
